@@ -20,6 +20,13 @@ Plugin 'sheerun/vim-polyglot'
 " Auto Pairs
 Plugin 'jiangmiao/auto-pairs'
 
+" LSP
+Plugin 'prabirshrestha/vim-lsp'
+Plugin 'mattn/vim-lsp-settings'
+
+Plugin 'prabirshrestha/asyncomplete.vim'
+Plugin 'prabirshrestha/asyncomplete-lsp.vim'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -40,26 +47,26 @@ let g:nerdtree_tabs_open_on_console_startup = 0
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
-set number
-set linebreak	
-set showbreak=+++ 	
+" set number
+set linebreak
+set showbreak=+++
 set textwidth=100
 set showmatch
- 
+
 set hlsearch
 set smartcase
-set ignorecase	
+set ignorecase
 set incsearch
- 
+
 set autoindent
 set expandtab
-set shiftwidth=4	
+set shiftwidth=4
 set smartindent
 set smarttab
 set softtabstop=4
- 
+
 
 set ruler
- 
+
 set undolevels=1000
 set backspace=indent,eol,start
