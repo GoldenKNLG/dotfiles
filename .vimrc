@@ -27,6 +27,11 @@ Plugin 'mattn/vim-lsp-settings'
 Plugin 'prabirshrestha/asyncomplete.vim'
 Plugin 'prabirshrestha/asyncomplete-lsp.vim'
 
+" Debug
+Plugin 'puremourning/vimspector'
+let g:vimspector_enable_mappings = 'HUMAN'
+
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
